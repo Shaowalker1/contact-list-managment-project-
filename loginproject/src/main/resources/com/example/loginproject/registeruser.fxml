@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginproject.registerc">
+    <children>
+        <ImageView fitHeight="556.0" fitWidth="806.0" layoutX="-4.0" layoutY="-4.0">
+            <image>
+                <Image url="@../../../Images/background.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="447.0" layoutY="-3.0" prefHeight="556.0" prefWidth="355.0" style="-fx-background-color: white;">
+            <children>
+                <Text layoutX="112.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" wrappingWidth="142.64337158203125">
+                    <font>
+                        <Font size="31.0" />
+                    </font>
+                </Text>
+                <TextField fx:id="txtuserame" layoutX="85.0" layoutY="206.0" prefHeight="25.0" prefWidth="184.0" />
+                <Text layoutX="85.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+                <TextField fx:id="txtepassword" layoutX="85.0" layoutY="278.0" prefHeight="25.0" prefWidth="184.0" />
+                <Text layoutX="85.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" />
+                <Button fx:id="btnregister" layoutX="209.0" layoutY="336.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: black;" text="register" textFill="WHITE" />
+            </children>
+        </Pane>
+    </children>
+</Pane>
